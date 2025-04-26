@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shadkain.github.io/locked_up_website/'
 languageCode = 'en-us'
 title = 'Locked Up Website'
 theme = 'PaperMod'
