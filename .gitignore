@@ -1,0 +1,21 @@
+# Hugo
+/public/
+/resources/_gen/
+
+# Hugo themes if you use submodules
+/themes/*
+
+# Ignore everything inside /themes except the PaperMod theme
+!themes/PaperMod
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+
+# Node.js stuff (если вдруг используете npm для плагинов)
+node_modules/
+package-lock.json
+yarn.lock
+
+# VS Code settings
+.vscode/
