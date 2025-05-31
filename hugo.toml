@@ -1,4 +1,3 @@
-baseURL = 'https://shadkain.github.io/locked_up_website/'
+baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'Locked Up Website'
-theme = 'PaperMod'

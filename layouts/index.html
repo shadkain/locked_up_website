@@ -1,0 +1,53 @@
+{{ define "main" }}
+<main class="game-page">
+  <!-- Блок "Об игре" -->
+  <section class="about-game">
+    <h1 class="title">Locked Up</h1>
+    <p class="intro">
+      В <strong>Locked Up</strong> ты решаешь судьбу курьера, принявшего
+      смертельный заказ. Сможешь ли ты спасти его?
+    </p>
+  </section>
+
+  <!-- Блок с карточками -->
+  <section class="features">
+    {{ range $index, $feature := .Params.features }}
+    <div class="feature {{ if not (modBool $index 2) }}reversed{{ end }}">
+      <img src="{{ $feature.image }}" alt="{{ $feature.title }}" />
+      <div class="feature-text-block">
+        <div class="feature-title-wrapper">
+          <div class="feature-title-rect-wrapper">
+            <div class="feature-title-rect"></div>
+          </div>
+          <span class="feature-title">{{ $feature.title | safeHTML }}</span>
+        </div>
+        <span class="feature-description">{{ $feature.description | safeHTML }}</span>
+      </div>
+    </div>
+    {{ end }}
+  </section>
+
+  <!-- Блок карусели -->
+  <section class="carousel">
+    <h2>Скриншоты игры</h2>
+    <div class="carousel-wrapper">
+      <!-- Здесь твои слайды с кнопками влево/вправо -->
+      <div class="slide">
+        <img src="/images/screenshot1.jpg" alt="Скриншот 1" />
+      </div>
+      <div class="slide">
+        <img src="/images/screenshot2.jpg" alt="Скриншот 2" />
+      </div>
+      <div class="slide">
+        <img src="/images/screenshot3.jpg" alt="Скриншот 3" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок "Поддержать" -->
+  <section class="support">
+    <h2>Поддержать</h2>
+    <a href="#" class="support-link">Сделать разработчикам клизму</a>
+  </section>
+</main>
+{{ end }}

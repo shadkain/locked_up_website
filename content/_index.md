@@ -1,8 +1,13 @@
 ---
 title: "Добро пожаловать в Locked Up!"
+features:
+  - title: "<strong>ИНТЕРАКТИВНЫЙ</strong> ТРИЛЛЕР"
+    description: "Окунитесь в бесшовное путешествие в жанре <strong>FMV</strong>"
+    image: "/images/image_block_1.png"
+  - title: "<strong>РАЗВЕТВЛЕННЫЙ</strong> СЮЖЕТ"
+    description: "Разветвленный динамичный сюжет c различными концовками"
+    image: "/images/image_block_2.png"
+  - title: "<strong>ДИНАМИЧНЫЙ</strong> ГЕЙМПЛЕЙ"
+    description: "Множество смертельных опасностей, требующих быстрых решений"
+    image: "/images/image_block_3.png"
 ---
-
-Locked Up — это игра о судьбе, выборе и приключениях.
-
-[Ссылка на игру](https://www.youtube.com/shorts/_fFqNvgGN3g)  
-[О сроках релиза](https://www.youtube.com/shorts/mpLvLjkWnio)
